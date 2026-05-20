@@ -20,11 +20,11 @@ void InitTree(Tree &T) {
     T.MaxNode = 0;
 }
 
-void InputLeftSkewed(Tree &T) {
+void InputLechTrai(Tree &T) {
 
     int n;
 
-    cout << "Nhap so node: ";
+    cout << "Nhap so nut: ";
     cin >> n;
 
     int index = 0;
@@ -79,7 +79,7 @@ int main() {
 
     InitTree(T);
 
-    InputLeftSkewed(T);
+    InputLechTrai(T);
 
     cout << "\nCay lech trai\n";
 
