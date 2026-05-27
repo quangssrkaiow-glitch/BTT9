@@ -75,13 +75,13 @@ void SapXepVunDong(int a[], int n)
 }
 
 int main()
-{
+{   cout << "Cay VD trong slide";
     int a1[11] = {0,4,1,3,2,16,9,10,14,8,7};
     int n1=10;
 
     SapXepVunDong(a1, n1);
 
-    cout << "====================" << endl;
+    cout << "====================\n Cay tren bang" << endl;
 
     int a2[13] = {0,11,54,32,106,38,78,203,16,84,17,39,15};
     int n2=12;
